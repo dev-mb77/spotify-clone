@@ -146,7 +146,7 @@ SELECT SUM(comments) as total_comments
 
 ### Medium Level
 1. Calculate the average danceability of tracks in each album.
-``sql
+```sql
 SELECT * FROM spotify
 
 SELECT album,AVG(danceability) AS average_danceability FROM spotify
